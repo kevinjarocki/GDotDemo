@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://l72w5byyr5p1"]
+
+[ext_resource type="Texture2D" uid="uid://c170kre70ub68" path="res://9s9c_e4ne_210520.jpg" id="1_sa2c0"]
+[ext_resource type="Script" path="res://CollisionShape2D.gd" id="2_dbk6w"]
+[ext_resource type="Texture2D" uid="uid://dgsb5ukwvv0el" path="res://icon.svg" id="3_jbgs5"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="9s9cE4Ne210520" type="Sprite2D" parent="."]
+position = Vector2(334, 181)
+scale = Vector2(0.0543381, 0.0436133)
+texture = ExtResource("1_sa2c0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="9s9cE4Ne210520"]
+position = Vector2(1361.84, 2234.97)
+script = ExtResource("2_dbk6w")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(736, 228)
+texture = ExtResource("3_jbgs5")
